@@ -9,7 +9,7 @@ const BasicExample = () => (
       <h1>
         Whats up
       </h1>
-    <CreateForm/>
+      <CreateForm/>
       <ul>
         <li>
           <Link to="/whatsups">Whats ups</Link>
@@ -27,6 +27,8 @@ const BasicExample = () => (
     </div>
   </Router>
 );
+
+
 
 const OtherPage = () => (
   <div>
